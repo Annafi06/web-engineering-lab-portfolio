@@ -1,0 +1,147 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
+/* Dark Mode Styles */
+body {
+    background-color: #181823;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #0f0f14;
+    transition: background-color 0.4s ease;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+    transition: color 0.4s ease;
+}
+
+.logo span {
+    color: #ff206e;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.4s ease;
+}
+
+.hire-me {
+    padding: 10px 20px;
+    background-color: #ff206e;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.intro {
+    flex: 1;
+}
+
+.intro h1 span {
+    color: #ff206e;
+}
+
+.social-links img {
+    width: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skill-icons img {
+    width: 40px;
+    margin-right: 15px;
+}
+
+.hero-image img {
+    width: 300px;
+    border-radius: 10px;
+    transition: transform 0.4s ease;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.about-text {
+    max-width: 400px;
+}
+
+.about-text h2 {
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+}
+
+.download-pdf {
+    padding: 10px 20px;
+    background-color: #ff206e;
+    text-decoration: none;
+    color: white;
+    border-radius: 25px;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.about-image img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* Light Mode Styles */
+body.light-mode {
+    background-color: #f5f5f5;
+    color: #000;
+}
+
+.navbar.light-mode {
+    background-color: #fff;
+}
+
+.logo.light-mode {
+    color: #000;
+}
+
+nav ul li a.light-mode {
+    color: #000;
+}
+
+.hire-me.light-mode {
+    background-color: #ff206e;
+    color: #fff;
+}
